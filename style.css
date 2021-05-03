@@ -88,6 +88,9 @@ body.home section#top{
     margin:0px;
     padding:0px;
 }
+ul#top-links li {
+    display:inline;
+  }
 
 #social-media ul,
 #social-media li{
