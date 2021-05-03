@@ -86,7 +86,9 @@ body.home section#top{
     list-style: none;
     line-height: 1;
     margin:0px;
-    pad
+        }
+#top-links a {
+    color: #231f20;
 }
 
 #social-media ul,
