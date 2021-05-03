@@ -90,6 +90,11 @@ body.home section#top{
 #top-links a {
     color: #231f20;
 }
+#find-us {
+    color: #a7a7a9;
+    text-align: left;
+    font-size: 15px;
+}
 
 #social-media ul,
 #social-media li{
@@ -161,42 +166,7 @@ section.newsletter ::-ms-input-placeholder { /* Microsoft Edge */
     color: #fff;
 }
 
-section#header{
-    background:#050000;
-    color:white;
-    padding: 2.4rem 0;
-}
 
-section#header .wrap-header{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-section#header div.menu{
-    line-height: 1;
-}
-section#header div.menu ul,
-section#header div.menu li{
-    font-size: 32px;
-    list-style: none;
-    line-height: 1;
-    margin:0px;
-    padding:0px;
-}
-section#header div.menu ul{
-    display: flex;
-}
-section#header div.menu li{
-    margin:0 0.7rem;
-}
-section#header div.menu a{
-    color:white;
-    text-decoration: none;
-}
-section#header div.menu{
-    font-family: 'HelveticaNeueHv', arial;
-    
-}
 section.hero{
     background-size:cover !important;
     background-position: center center !important;
