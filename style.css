@@ -176,36 +176,7 @@ section.hero .wrap-hero{
     align-items: center;
     display: flex;
 }
-section.hero .wrap-form{
-    background:white;
-    padding:1.3rem 1.5rem;
-}
-section.hero .wrap-form h4{
-    font-family: 'HelveticaNeueHv', arial;
-    font-size: 26px;
-    letter-spacing: -1px;
-    margin-bottom: 0.4rem;
-}
-section.hero .wrap-form input,
-section.hero .wrap-form textarea{
-    border:1px solid #bdbdbd;
-    padding:0.5rem;
-    width:100%;
-}
-section.hero .wrap-form textarea{
-    overflow:hidden;
-    -ms-overflow-style: none;
-    overflow: -moz-hidden-unscrollable;
-}
-section.hero .wrap-form textarea::-webkit-scrollbar{
-    display: none;
-}
 
-section.hero .wrap-form input[type='submit']{
-    border:1px solid black;
-    background:black;
-    color:white;
-}
 section.hero .headline{
     color:white;
     font-family: 'HelveticaNeueHv', arial;
