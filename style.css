@@ -87,6 +87,14 @@ body.home section#top{
     line-height: 1;
     margin:0px;
     padding:0px;
+        }
+#top-links a {
+    color: #231f20;
+}
+#find-us {
+    color: #a7a7a9;
+    text-align: left;
+    font-size: 15px;
 }
 ul#top-links li {
     display:inline;
@@ -162,81 +170,18 @@ section.newsletter ::-ms-input-placeholder { /* Microsoft Edge */
     color: #fff;
 }
 
-section#header{
-    background:#050000;
-    color:white;
-    padding: 2.4rem 0;
-}
 
-section#header .wrap-header{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-section#header div.menu{
-    line-height: 1;
-}
-section#header div.menu ul,
-section#header div.menu li{
-    font-size: 32px;
-    list-style: none;
-    line-height: 1;
-    margin:0px;
-    padding:0px;
-}
-section#header div.menu ul{
-    display: flex;
-}
-section#header div.menu li{
-    margin:0 0.7rem;
-}
-section#header div.menu a{
-    color:white;
-    text-decoration: none;
-}
-section#header div.menu{
-    font-family: 'HelveticaNeueHv', arial;
-    
-}
 section.hero{
     background-size:cover !important;
     background-position: center center !important;
     padding: 4rem 0;
+    height: 500px;
 }
 section.hero .wrap-hero{
     align-items: center;
     display: flex;
 }
-section.hero .wrap-form{
-    background:white;
-    padding:1.3rem 1.5rem;
-}
-section.hero .wrap-form h4{
-    font-family: 'HelveticaNeueHv', arial;
-    font-size: 26px;
-    letter-spacing: -1px;
-    margin-bottom: 0.4rem;
-}
-section.hero .wrap-form input,
-section.hero .wrap-form textarea{
-    border:1px solid #bdbdbd;
-    padding:0.5rem;
-    width:100%;
-}
-section.hero .wrap-form textarea{
-    overflow:hidden;
-    -ms-overflow-style: none;
-    overflow: -moz-hidden-unscrollable;
-}
-section.hero .wrap-form textarea::-webkit-scrollbar{
-    display: none;
-}
 
-section.hero .wrap-form input[type='submit']{
-    border:1px solid black;
-    background:black;
-    color:white;
-}
 section.hero .headline{
     color:white;
     font-family: 'HelveticaNeueHv', arial;
