@@ -81,21 +81,28 @@ body.home section#top{
     line-height: 1.5;
 }
 
+ul#top-links li {
+    display: inline;
+}
+
 #top-links ul,
 #top-links li{
     list-style: none;
     line-height: 1;
-    margin:0px;
+    margin:10px;
         }
 #top-links a {
     color: #231f20;
 }
-#find-us {
+span#find-us {
+    
     color: #a7a7a9;
     text-align: left;
     font-size: 15px;
 }
-
+#top-nv {
+    display: inline;
+}
 #social-media ul,
 #social-media li{
     list-style: none;
@@ -103,6 +110,11 @@ body.home section#top{
     margin:0px;
     padding:0px;
 }
+#social-media {
+    display: flex;
+    justify-content: flex-end;
+    display: inline;
+    }
 #social-media li{
     margin:0 7px;
 }
@@ -171,7 +183,7 @@ section.hero{
     background-size:cover !important;
     background-position: center center !important;
     padding: 4rem 0;
-    height: 500px;
+    height: 450px;
 }
 section.hero .wrap-hero{
     align-items: center;
@@ -645,4 +657,51 @@ body.home section#footer .footer-bottom p:last-child{
     body.home .slick-prev {
         left: 0px;
     }
+}
+
+
+#article-p-1, #clean-fuel-p-1, #clean-fuel-p-3{
+    font-family: 'HelveticaNeue';
+    font-size: 33px;
+    color: #231f20;
+    text-align: center;
+    
+}
+
+#article-p-2 {
+    font-family: 'HelveticaNeue';
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    
+}
+.articles {
+    box-shadow: inset 1px 40px 27px -17px #fff;
+
+}
+.clean-fuel-image, {
+    display: block;
+    margin: 40px auto;
+    width: 50%;
+}
+
+#clean-fuel-standard {
+    color: #8fb73c;
+}
+
+#clean-fuel-p-2, #clean-fuel-p-4 {
+    font-family: 'HelveticaNeue';
+    font-size: 24px;
+    color: #231f20;
+    text-align: center;
+}
+
+
+#learn-more a{
+    font-family: 'HelveticaNeue';
+    font-size: 33px;
+    text-decoration: none;
+    color: #8fb73c;
+    font-weight: bolder;
+
 }
