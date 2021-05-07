@@ -499,7 +499,7 @@ body.home section.our-locations .card p{
     margin:0 0 4px;
 }
 body.home section#footer{
-    color:#999999;
+    background-image: url("assets/images/footer_back.png");
     font-size:12px;
     line-height: 14px;
     padding:3.5rem 0;
