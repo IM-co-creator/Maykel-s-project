@@ -188,9 +188,6 @@ section.hero h1{
     text-shadow: 2px 2px 6px #000;
 }
 
-body.home section.articles{
-    padding: 3rem 0;
-}
 body.home .articles-wrap .article-item a{
     align-items: center;
     display:flex;
@@ -236,37 +233,7 @@ body.home .wrap-read-more a{
     font-weight: bold;
     text-decoration: none;
 }
-.wrap-subscribe{
-    align-items: center;
-    display:flex;
-    padding: 3rem 0 0;
-}
-body.home .wrap-subscribe h5{
-    margin-right: 1.5rem !important;
-}
-body.home .wrap-subscribe form{
-    border:1px solid #a7a7a7;
-    display: flex;
-    margin:0px;
-    padding: 0px;
-}
-body.home .wrap-subscribe form input{
-    border:none;
-    outline: none;
-}
-body.home .wrap-subscribe form input[type='text'],
-body.home .wrap-subscribe form input[type='email']{
-    background: transparent;
-    padding:0.2rem 0.6rem;
-}
-body.home .wrap-subscribe form input[type='submit'],
-body.home .wrap-subscribe form button[type='submit'],
-body.home .wrap-subscribe form .submit{
-    background:#a7a7a7;
-    color:white;
-    font-family: 'HelveticaNeueHv', arial;
-    padding:0.3rem 1rem;
-}
+
 body.home section.banner{
     text-align: center;
 }
@@ -276,42 +243,7 @@ body.home section.banner img{
 body.home section.banner{
     margin-bottom:-60px;
 }
-body.home section.newsletter{
-    background:#5f5f5f;
-    padding: 7rem 0 3rem;
-}
-body.home section.newsletter h4{
-    color:#a8a8a8;
-}
-body.home section.newsletter a h2{
-    color:#fff;
-}
 
-body.home section.newsletter a h4{
-    color:#a8a8a8;
-}
-
-body.home section.newsletter .article-item a h4{
-    color:#fff;
-}
-
-body.home section.newsletter .wrap-read-more a{
-    color:white;
-}
-
-body.home section.newsletter .wrap-subscribe input::-webkit-input-placeholder,
-body.home section.newsletter .wrap-subscribe input:-ms-input-placeholder,
-body.home section.newsletter .wrap-subscribe input::placeholder{
-    color:#fff !important;
-}
-body.home section.newsletter .wrap-subscribe form input[type='submit'],
-body.home section.newsletter .wrap-subscribe form button[type='submit'],
-body.home section.newsletter .wrap-subscribe form .submit{
-    color:#5f5f5f;
-}
-body.home section.newsletter .wrap-subscribe h5{
-    color:white;
-}
 body.home .upcomming-events{
     background:#eeeeee;
     padding:4.5rem 0;
@@ -392,15 +324,7 @@ body.home .upcomming-events .wrap-events h5{
 body.home .upcomming-events .wrap-events .event-item{
     margin-bottom: 0.8rem;
 }
-body.home section.our-team h2{
-    color:#7f7f7f;
-    text-align: center;
-    margin-bottom: 13px;
-}
-body.home section.our-team h2 span{
-    color:black;
-    display: block;
-}
+
 body.home section.our-team .headline .learn-more{
     text-align: center;
 }
@@ -486,11 +410,7 @@ body.home section.our-locations .card{
 body.home section.our-locations .card p{
     margin:0 0 4px;
 }
-body.home section#footer{
-    background-image: url("assets/images/footer_back.png");
-    font-size:12px;
-    
-}
+
 
 @media(max-width:1200px){
     body.home section#header div.menu ul, 
@@ -718,4 +638,9 @@ section.hero {
 
 #footer .container {
     padding: 0px ;
+}
+
+section#footer{
+    background-image: url("assets/images/footer_back.png");
+  
 }
