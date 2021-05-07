@@ -660,7 +660,7 @@ body.home section#footer .footer-bottom p:last-child{
 }
 
 
-#article-p-1, #clean-fuel-p-1, #clean-fuel-p-3{
+#article-p-1, #clean-fuel-p-1, #clean-fuel-p-3, .container h2{
     font-family: 'HelveticaNeue';
     font-size: 33px;
     color: #231f20;
@@ -676,8 +676,11 @@ body.home section#footer .footer-bottom p:last-child{
     
 }
 .articles {
-    box-shadow: inset 1px 40px 27px -17px #fff;
+    box-shadow: inset 1px 20px 22px 0px #fff;
 
+}
+section.hero {
+    box-shadow: inset 1px -11px 20px 2px #fff;
 }
 .clean-fuel-image {
     display: block;
@@ -685,9 +688,12 @@ body.home section#footer .footer-bottom p:last-child{
     width: 50%;
 }
 
-#clean-fuel-standard {
+#clean-fuel-standard, #numbers-green {
     color: #8fb73c;
+    font-weight: bolder;
 }
+
+ 
 
 #clean-fuel-p-2, #clean-fuel-p-4 {
     font-family: 'HelveticaNeue';
@@ -703,5 +709,25 @@ body.home section#footer .footer-bottom p:last-child{
     text-decoration: none;
     color: #8fb73c;
     font-weight: bolder;
+    display: block;
+    margin-bottom: 20px;
+}
 
+#learn-more {
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    font-family: 'HelveticaNeue';
+    font-size: 48px;
+    color: #2b4d25;
+    text-align: center; 
+}
+
+#article-p-5, #article-p-6 {
+    font-family: 'HelveticaNeue';
+    font-size: 24px;
+    color: #231f20;
+    text-align: center; 
 }
