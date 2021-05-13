@@ -45,11 +45,14 @@ body.home img{
     max-width: 100%;
 }
 body.home section#top{
-    font-size:0.875rem;
-    line-height: 1.5;
     display: flex;
     justify-content: space-between;
 }
+
+#div-logo {
+    margin-left: 345px;
+}
+
 
 ul {
     margin-block-start: 0;
@@ -57,6 +60,8 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0;
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 ul#topLinks li {
@@ -64,10 +69,10 @@ ul#topLinks li {
 }
 
 #topLinks ul,
-#topLinksli{
+#topLinks li{
     list-style: none;
     line-height: 1;
-    margin:10px;
+    margin:20px;
         }
 #topLinks a {
     color: #231f20;
@@ -93,6 +98,7 @@ span#find-us {
     display: flex;
     justify-content: flex-end;
     display: inline;
+    margin-right: 345px;
     }
 #social-media li{
     margin:0 7px;
