@@ -93,6 +93,7 @@ ul#top-links li {
         }
 #top-links a {
     color: #231f20;
+    font-size: 25px;
 }
 span#find-us {
     
@@ -308,7 +309,7 @@ body.home .event-content .event-btn a{
     border:1px solid #b2340d;
     display: flex;
     justify-content: center;
-    font-family: 'HelveticaNeueLTStdBdCn', arial;
+    font-family: 'HelveticaNeueLTStdLt', arial;
     font-size: 14px;
     padding: 4px 9px;
 }
@@ -330,7 +331,7 @@ body.home section.our-team .headline .learn-more{
 }
 body.home section.our-team .headline .learn-more a{
     color:black;
-    font-family: 'HelveticaNeueHv', arial;
+    font-family: 'HelveticaNeueLTStdLt', arial;
     font-size: 18px;;
 }
 
